@@ -54,7 +54,7 @@ Just documenting here that the so-called 'crude plot' does not document the raw 
 1. Partial date
 2. Nonsensical date
 3. Date before the earliest possible date in the dataset
-4. Date before teh child's date of birth
+4. Date before the child's date of birth
 5. Date after the interview date
 6. Two dates in a dose series that are out-of-order (e.g., dose 2 date is before dose 1 date)
 7. Two dates in a dose series that are the same (e.g., both dose 1 and dose 2 given on the same date)
@@ -62,3 +62,6 @@ Just documenting here that the so-called 'crude plot' does not document the raw 
 In what we have called 'crude elbow plots' for several years, we have plotted the data after this tick imputation step and after coding a recall 'dnk' using the very specific logic described above. 
 
 I would like to develop a data structure and code in the future to show the very raw evidence, and to show what VCQI does with that evidence.  That's a future project.  For now, I'm focusing on producing datasets and code that will make the traditional crude elbow plot and crude MOV elbow plot.  The files posted here now are a good start for the crude plots.  I will post additional files for crude MOV plots next.
+
+### 2024-12-12
+- Added an R script that mirrors the Stata steps to create crude elbow plots
